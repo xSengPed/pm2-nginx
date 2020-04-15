@@ -1,6 +1,6 @@
 let express = require("express");
 let app = express();
-let PORT = 3000;
+let PORT = process.env.PORT;
 let persons = [
   {
     id: 0,
